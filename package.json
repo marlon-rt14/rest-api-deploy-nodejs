@@ -1,0 +1,35 @@
+{
+  "name": "arquitectura_mvc_mas_despliegue_api_rest",
+  "version": "1.0.0",
+  "description": "El poder de la ARQUITECTURA MVC + Despliegue API REST",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "curso",
+    "course",
+    "javascript",
+    "midudev"
+  ],
+  "author": "Marlon Javier Ruiz",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.3",
+    "zod": "3.22.4"
+  }
+}
